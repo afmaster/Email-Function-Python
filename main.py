@@ -1,3 +1,5 @@
+import smtplib
+
 def sendmailalternative(sender, password, receiver, title, message):
     try:
         msg = EmailMessage()
